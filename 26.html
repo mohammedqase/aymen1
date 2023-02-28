@@ -1,0 +1,565 @@
+<div class="font-monospace pt8 bg-light">
+  <style>
+.containerr {
+height: 100vh;
+width: 100%;
+max-height: 800px;
+max-width: 1280px;
+min-height: 600px;
+min-width: 1000px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+flex-wrap: wrap;
+position: relative;
+
+}
+.borderr {
+height: 350px;
+width: 250px;
+background: transparent;
+border-radius: 10px;
+transition: borderr 1s;
+position: relative;
+}
+.borderr:hover {
+border: 1px solid #fff;
+}
+.card {
+height: 300px;
+width: calc(100%/7);
+
+border-radius: 10px;
+transition: background 0.8s;
+overflow: hidden;
+background: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+align-items: stretch;
+}
+.card0 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+
+}
+.card0:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card0:hover h2 {
+opacity: 1;
+
+}
+.card0:hover .fa {
+opacity: 1;
+}
+.card1 {
+background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") center center no-repeat;
+background-size: 150px;
+
+}
+.card1:hover {
+background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card1:hover h2 {
+opacity: 1;
+}
+.card1:hover .fa {
+opacity: 1;
+}
+.card2 {
+background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card2:hover {
+background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card2:hover h2 {
+opacity: 1;
+}
+.card2:hover .fa {
+opacity: 1;
+}
+.card3 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+
+}
+.card3:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card3:hover h2 {
+opacity: 1;
+}
+.card3:hover .fa {
+opacity: 1;
+}
+.card4 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+
+}
+.card4:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card4:hover h2 {
+opacity: 1;
+}
+.card4:hover .fa {
+opacity: 1;
+}
+.card5 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card5:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card5:hover h2 {
+opacity: 1;
+}
+.card5:hover .fa {
+opacity: 1;
+}
+.card6 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card6:hover {
+background: url( "https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card6:hover h2 {
+opacity: 1;
+}
+.card6:hover .fa {
+opacity: 1;
+}
+.card7 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card7:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card7:hover h2 {
+opacity: 1;
+}
+.card7:hover .fa {
+opacity: 1;
+}
+.card8 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card8:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card8:hover h2 {
+opacity: 1;
+}
+.card8:hover .fa {
+opacity: 1;
+}
+.card9 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card9:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card9:hover h2 {
+opacity: 1;
+}
+.card9:hover .fa {
+opacity: 1;
+}
+.card10 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card10:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card10:hover h2 {
+opacity: 1;
+}
+.card10:hover .fa {
+opacity: 1;
+}
+.card11 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card11:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card11:hover h2 {
+opacity: 1;
+}
+.card11:hover .fa {
+opacity: 1;
+}
+.card12 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card12:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card12:hover h2 {
+opacity: 1;
+}
+.card12:hover .fa {
+opacity: 1;
+}
+.card13 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card13:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card13:hover h2 {
+opacity: 1;
+}
+.card13:hover .fa {
+opacity: 1;
+}
+.card14 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card14:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card14:hover h2 {
+opacity: 1;
+}
+.card14:hover .fa {
+opacity: 1;
+}
+.card15 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card15:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card15:hover h2 {
+opacity: 1;
+}
+.card15:hover .fa {
+opacity: 1;
+}
+.card16 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card16:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card16:hover h2 {
+opacity: 1;
+}
+.card16:hover .fa {
+opacity: 1;
+}
+.card17 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card17:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card17:hover h2 {
+opacity: 1;
+}
+.card17:hover .fa {
+opacity: 1;
+}
+.card18 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card18:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card18:hover h2 {
+opacity: 1;
+}
+.card18:hover .fa {
+opacity: 1;
+}
+.card19 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card19:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card19:hover h2 {
+opacity: 1;
+}
+.card19:hover .fa {
+opacity: 1;
+}
+.card20 {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+background-size: 150px;
+}
+.card20:hover {
+background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+background-size: 250px;
+}
+.card20:hover h2 {
+opacity: 1;
+text-align: end;
+}
+.card20:hover .fa {
+opacity: 1;
+}
+
+
+
+h2 {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #fff;
+margin: 20px;
+opacity: 0;
+transition: opacity 1s;
+position: absolute;
+top: 220px;
+font-size: 1.5em;
+}
+.fa {
+opacity: 0;
+transition: opacity 1s;
+}
+.icons {
+position: absolute;
+fill: #fff;
+color: #fff;
+height: 130px;
+top: 226px;
+width: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+</style>
+  <div class="containerr">
+    <div class="card card0">
+      <div class="borderr">
+        <a href="https://www.youtube.com/watch?v=9v49dcw7AGM">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="https://www.youtube.com/watch?v=9v49dcw7AGM">
+</a>
+    </div>
+    <div class="card card1">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card2">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card3">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card4">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card5">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card6">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card7">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card8">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card9">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card10">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card11">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card12">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card13">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card14">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card15">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card16">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card17">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card18">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card19">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+    <div class="card card20">
+      <div class="borderr">
+        <a href="">
+          <h2>Al Pacino</h2>
+        </a>
+      </div>
+      <a href="">
+</a>
+    </div>
+  </div>
+</div>
